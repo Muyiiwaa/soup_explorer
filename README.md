@@ -5,13 +5,13 @@
 The **Naija Soup Buddy** is an interactive application designed to identify Nigerian soups from uploaded images and provide insightful information about them. The app combines state-of-the-art image classification using a pre-trained `EfficientNet` model with an AI-powered conversational system to deliver an engaging and educational user experience. Whether you're curious about the ingredients, cooking techniques, or cultural relevance of a Nigerian soup, this bot can handle that!
 
 ---
-<iframe width="560" height="315" 
-    src="https://www.youtube.com/embed/g8rgyEe0xqQ" 
-    title="YouTube video" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>
+
+## Demo
+
+[![Watch the Demo](https://img.youtube.com/vi/g8rgyEe0xqQ/0.jpg)](https://youtu.be/g8rgyEe0xqQ)
+
+Click the thumbnail above to watch a demonstration of the **Naija Soup Buddy** in action!
+
 ---
 
 ## Features
@@ -91,7 +91,7 @@ The **Naija Soup Buddy** is an interactive application designed to identify Nige
 ```bash
 git clone https://github.com/muyiiwaa/soup-classifier.git
 cd soup-classifier
-```
+
 
 2. Create a virtual environment:
 ```bash
