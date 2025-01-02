@@ -1,31 +1,81 @@
-# Soup Image Classifier
+# Naija-Soup Buddy
 
-A deep learning model deployment project that classifies different types of soups using pretrained efficientnet model.
+## Overview
 
-## 🍜 Project Overview
+The **Naija Soup Buddy** is an interactive application designed to identify Nigerian soups from uploaded images and provide insightful information about them. The app combines state-of-the-art image classification using a pre-trained `EfficientNet` model with an AI-powered conversational system to deliver an engaging and educational user experience. Whether you're curious about the ingredients, cooking techniques, or cultural relevance of a Nigerian soup, this bot can handle that!
 
-This project implements a soup classification system using deep learning techniques. It can identify various types of soups from images, making it useful for food recognition applications, restaurant menu systems, or dietary tracking apps. It also incorporate a Google's gemini based conversational bot that provides expert opinion about the identified soup.
+---
 
-## 🚀 Features
+## Features
 
-- Real-time soup classification from images
-- Support for multiple soup categories
-- Conversationl bot
-- Pre-trained model for immediate use
-- Docker support for containerized deployment
+### 1. **Soup Image Classification**
+- Upload an image of a Nigerian soup, and the app will identify it as one of the following:
+  - **Afang**
+  - **Banga**
+  - **Edikaikong**
+  - **Efo Riro**
+  - **Egusi**
+  - **Ewedu**
+  - **Ofe Nsala**
+  - **Ogbono**
+  - **Oha**
+  - **Okro**
 
-## 🛠️ Technical Stack
+### 2. **Culinary Knowledge Base**
+- The bot can answer questions about Nigerian soups, such as:
+  - Ingredients used
+  - Nutritional value
+  - Preparation methods
+  - Regional variations
 
-- Python 3.8+
-- Pytorch
-- Streamlit
-- Google Gemini
+### 3. **Interactive Chat System**
+- Chat with the bot to learn more about the identified soup.
+- The system uses Google's `Gemini-1.5` model for intelligent and contextual responses.
 
-## 📋 Prerequisites
+### 4. **User-Friendly Interface**
+- Streamlit-based application for easy interaction.
+- Sidebar for image upload and soup analysis.
+- Responsive and clean design for an enhanced user experience.
 
-- Python 3.8 or higher
-- pip package manager
-- CUDA-compatible GPU (optional, for faster inference)
+---
+
+## How It Works
+
+### 1. **Image Upload**
+- Upload a `.jpg`, `.jpeg`, or `.png` image of a Nigerian soup via the sidebar.
+
+### 2. **Image Classification**
+- The uploaded image is processed using a pre-trained `EfficientNet` model fine-tuned on 10 Nigerian soup categories.
+- The app displays the predicted soup class.
+
+### 3. **Conversational Interaction**
+- Start a chat with the bot to ask questions about the identified soup.
+- The bot uses contextual memory to provide coherent and tailored answers.
+
+---
+
+## Technology Stack
+
+### **Backend**
+- **PyTorch**: For deep learning and image classification.
+- **Timm**: Pre-trained `EfficientNet` model for transfer learning.
+
+### **Frontend**
+- **Streamlit**: For the user interface and chat functionality.
+
+### **Generative AI**
+- **Google Generative AI (Gemini-1.5)**: For intelligent, conversational responses.
+
+### **Image Processing**
+- **Pillow**: For image loading and preprocessing.
+- **Torchvision**: For image transformations.
+
+### **Environment Configuration**
+- `.env` file for securely storing API keys.
+
+---
+
+## Setup and Installation
 
 ## ⚙️ Installation
 
