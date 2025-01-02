@@ -7,8 +7,8 @@ The **Naija Soup Buddy** is an interactive application designed to identify Nige
 ---
 
 ## Demo
+[screen-capture (11).webm](https://github.com/user-attachments/assets/0971fe2f-e7e9-4879-92e9-7081952ab864)
 
-[![Demo Naija Soup-Buddy](https://share.gifyoutube.com/KzB6Gb.gif)](https://youtu.be/g8rgyEe0xqQ)
 
 Click the thumbnail above to watch a demonstration of the **Naija Soup Buddy** in action!
 
