@@ -80,7 +80,7 @@ def system_prompt(user_prompt, soup, memory=None):
     """
     return prompt
 
-st.title("Food Companion Bot")
+st.title("Nigerian Soup Bot")
 
    # Sidebar for Image Upload
 st.sidebar.title("Upload an Image")
