@@ -103,8 +103,8 @@ if uploaded_file is not None:
     predicted_class = predict_class(standardized_name)
    
      # Predict class
-if st.sidebar.button(label='Analyze this Food', type = 'secondary'):
-    st.sidebar.success(f'Looks like it is {predicted_class}')
+if st.sidebar.button(label='Analyze this Soup', type = 'secondary'):
+    st.sidebar.success(f'Looks like this is {predicted_class} soup')
 
 # Initialize chat history
 if "messages" not in st.session_state:
@@ -116,7 +116,7 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
 
 # React to user input
-if prompt := st.chat_input("What is up?"):
+if prompt := st.chat_input("Hey Foodie, What is up?"):
     # Display user message in chat message container
     st.chat_message("user").markdown(prompt)
     # Add user message to chat history
